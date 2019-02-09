@@ -1,0 +1,141 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+body {
+  background-color: #fff;
+  font-family: "SF Pro Text", Arial, Roboto;
+  font-size: 17px;
+  font-weight: normal;
+  display: block;
+}
+strong {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+/* ~~~~~BEGIN HEADER STYLING ~~~~~*/
+header{
+  background-color: #8C57C1;
+  width: 100%;
+}
+.status-bar {
+  width: 100%;
+}
+.navbar {
+  padding: 10px;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.arrow {
+  padding: 5px;
+  position: absolute;
+  left: 10px;
+}
+.search{
+  margin: 0px 10px 0px 5px;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  color: gray;
+  padding: 5px;
+  border-radius: 4px;
+  width: 75%;
+}
+.burger {
+  padding: 5px;
+  position: absolute;
+  right: 10px;
+}
+.names{
+  background-color: #F7EFFF;
+  display: flex;
+  justify-content:space-between;
+  width: 100%;
+  border-bottom: #D2D2D2 1px solid;
+  padding: 10px 15px 10px 15px;
+}
+.namesinfo {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+/* ~~~~~END HEADER STYLING~~~~~ */
+/* ~~~~BEGIN DIRECTION~~~~~ */
+h1 {
+  font-size: 1.2em;
+  font-weight: 400;
+}
+.direction {
+  width: 100%;
+  padding: 5px 0px 5px 14px;
+  display: inline-block;
+  background-color: #E7E7E7;
+  /* border-top:#D2D2D2 1px solid; */
+  border-bottom: #D2D2D2 1px solid;
+}
+/* ~~~~~END DIRECTION~~~~~~ */
+.info {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 15px 10px 15px;
+  border-bottom: 1px solid #D2D2D2;
+}
+.info:hover{
+  background-color: #eee;
+}
+.line {
+  background-color: #8C57C1;
+  color: #fff;
+  padding: 3px 10px 3px 10px;
+  border-radius: 3px;
+}
+
+.column1 {
+  width: 20%;
+  align-self: center;
+}
+.column2 {
+  width: 80%;
+}
+
+.row1 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: baseline;
+}
+.row2 {
+  font-size: 14px;
+  padding-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.next{
+  font-size: 15px;
+}
+.eta {
+  color: #505050;
+}
+.status {
+  background-color: #41E127;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  text-align: center;
+  border-radius: 3px;
+  width: 55px;
+}
+.delay {
+  background-color: #FF6F65;
+}
+.out{
+  background-color: #ddd;
+  align-self: center;
+}
+
+.reroute, .outofservice{
+  background-color: #FF7373;
+}
