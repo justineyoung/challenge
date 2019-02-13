@@ -4,10 +4,14 @@
 body {
   background-color: #fff;
 <<<<<<< HEAD
+<<<<<<< HEAD
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 =======
   font-family: "SF Pro Text", Arial, Roboto;
 >>>>>>> 8933fead1d32cf5a6946d7c1e5bcbb4a3afd3ac5
+=======
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+>>>>>>> 117529e39531867f844d49d8877f78704e947e4a
   font-size: 17px;
   font-weight: normal;
   display: block;
@@ -26,10 +30,14 @@ header{
 }
 .navbar {
 <<<<<<< HEAD
+<<<<<<< HEAD
   padding: 5px 10px;
 =======
   padding: 10px;
 >>>>>>> 8933fead1d32cf5a6946d7c1e5bcbb4a3afd3ac5
+=======
+  padding: 5px 10px;
+>>>>>>> 117529e39531867f844d49d8877f78704e947e4a
   width: 100%;
   display: inline-flex;
   align-items: center;
@@ -41,6 +49,9 @@ header{
   left: 10px;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 117529e39531867f844d49d8877f78704e947e4a
 form {
   width: 80%;
   padding: 5px;
@@ -53,6 +64,7 @@ input[type=search] {
   resize: none;
   font-size: 0.8em;
   color: gray;
+<<<<<<< HEAD
 =======
 .search{
   margin: 0px 10px 0px 5px;
@@ -64,6 +76,8 @@ input[type=search] {
   border-radius: 4px;
   width: 75%;
 >>>>>>> 8933fead1d32cf5a6946d7c1e5bcbb4a3afd3ac5
+=======
+>>>>>>> 117529e39531867f844d49d8877f78704e947e4a
 }
 .burger {
   padding: 5px;
@@ -95,19 +109,26 @@ h1 {
   display: inline-block;
   background-color: #E7E7E7;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   /* border-top:#D2D2D2 1px solid; */
 >>>>>>> 8933fead1d32cf5a6946d7c1e5bcbb4a3afd3ac5
+=======
+>>>>>>> 117529e39531867f844d49d8877f78704e947e4a
   border-bottom: #D2D2D2 1px solid;
 }
 /* ~~~~~END DIRECTION~~~~~~ */
 .info {
+<<<<<<< HEAD
 <<<<<<< HEAD
   display:inline-block;
 =======
   display: flex;
   justify-content: space-between;
 >>>>>>> 8933fead1d32cf5a6946d7c1e5bcbb4a3afd3ac5
+=======
+  display:inline-block;
+>>>>>>> 117529e39531867f844d49d8877f78704e947e4a
   width: 100%;
   padding: 10px 15px 10px 15px;
   border-bottom: 1px solid #D2D2D2;
@@ -116,15 +137,22 @@ h1 {
   background-color: #eee;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 h3 {
 =======
 .line {
 >>>>>>> 8933fead1d32cf5a6946d7c1e5bcbb4a3afd3ac5
+=======
+h3 {
+>>>>>>> 117529e39531867f844d49d8877f78704e947e4a
   background-color: #8C57C1;
   color: #fff;
   padding: 3px 10px 3px 10px;
   border-radius: 3px;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 117529e39531867f844d49d8877f78704e947e4a
   align-self: center;
 }
 .column1 {
@@ -150,6 +178,7 @@ h5 {
 
 h6 {
   font-size: 14px;
+<<<<<<< HEAD
 =======
 }
 
@@ -183,6 +212,8 @@ h6 {
 }
 .status {
 >>>>>>> 8933fead1d32cf5a6946d7c1e5bcbb4a3afd3ac5
+=======
+>>>>>>> 117529e39531867f844d49d8877f78704e947e4a
   background-color: #41E127;
   padding-top: 2px;
   padding-bottom: 2px;
@@ -191,6 +222,9 @@ h6 {
   width: 55px;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 117529e39531867f844d49d8877f78704e947e4a
 li {
   text-align:left;
   float:left;
@@ -202,13 +236,17 @@ li:last-child {
 h6 {
   float:right;
 }
+<<<<<<< HEAD
 =======
 >>>>>>> 8933fead1d32cf5a6946d7c1e5bcbb4a3afd3ac5
+=======
+>>>>>>> 117529e39531867f844d49d8877f78704e947e4a
 .delay {
   background-color: #FF6F65;
 }
 .out{
   background-color: #ddd;
+<<<<<<< HEAD
 <<<<<<< HEAD
 }
 =======
@@ -216,6 +254,9 @@ h6 {
 }
 
 >>>>>>> 8933fead1d32cf5a6946d7c1e5bcbb4a3afd3ac5
+=======
+}
+>>>>>>> 117529e39531867f844d49d8877f78704e947e4a
 .reroute, .outofservice{
   background-color: #FF7373;
 }
