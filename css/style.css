@@ -1,0 +1,145 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+body {
+  background-color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 17px;
+  font-weight: normal;
+  display: block;
+}
+strong {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+/* ~~~~~BEGIN HEADER STYLING ~~~~~*/
+header{
+  background-color: #8C57C1;
+  width: 100%;
+}
+.status-bar {
+  width: 100%;
+}
+.navbar {
+  padding: 5px 10px;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.arrow {
+  padding: 5px;
+  position: absolute;
+  left: 10px;
+}
+form {
+  width: 80%;
+  padding: 5px;
+}
+input[type=search] {
+  width: 100%;
+  padding: 8px 20px;
+  border: solid 0px #ccc;
+  border-radius: 4px;
+  resize: none;
+  font-size: 0.8em;
+  color: gray;
+}
+.burger {
+  padding: 5px;
+  position: absolute;
+  right: 10px;
+}
+.names{
+  background-color: #F7EFFF;
+  display: flex;
+  justify-content:space-between;
+  width: 100%;
+  border-bottom: #D2D2D2 1px solid;
+  padding: 10px 15px 10px 15px;
+}
+.namesinfo {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+/* ~~~~~END HEADER STYLING~~~~~ */
+/* ~~~~BEGIN DIRECTION~~~~~ */
+h1 {
+  font-size: 1.2em;
+  font-weight: 400;
+}
+.direction {
+  width: 100%;
+  padding: 5px 0px 5px 14px;
+  display: inline-block;
+  background-color: #E7E7E7;
+  border-bottom: #D2D2D2 1px solid;
+}
+/* ~~~~~END DIRECTION~~~~~~ */
+.info {
+  display:inline-block;
+  width: 100%;
+  padding: 10px 15px 10px 15px;
+  border-bottom: 1px solid #D2D2D2;
+}
+.info:hover{
+  background-color: #eee;
+}
+h3 {
+  background-color: #8C57C1;
+  color: #fff;
+  padding: 3px 10px 3px 10px;
+  border-radius: 3px;
+  align-self: center;
+}
+.column1 {
+  width: 18%;
+}
+
+.middle {
+  position: absolute;
+  left: 20%;
+  float: left;
+}
+
+.column2 {
+  width: 82%;
+}
+h4 {
+  padding-bottom: 5px;
+}
+h5 {
+  color: #505050;
+  font-size: 15px;
+}
+
+h6 {
+  font-size: 14px;
+  background-color: #41E127;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  text-align: center;
+  border-radius: 3px;
+  width: 55px;
+}
+li {
+  text-align:left;
+  float:left;
+}
+li:last-child {
+  float:right;
+  text-align: right;
+}
+h6 {
+  float:right;
+}
+.delay {
+  background-color: #FF6F65;
+}
+.out{
+  background-color: #ddd;
+}
+.reroute, .outofservice{
+  background-color: #FF7373;
+}
